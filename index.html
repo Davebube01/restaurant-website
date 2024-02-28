@@ -1,0 +1,316 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- nav bar -->
+    <!-- <nav class="navbar bg-dark" data-bs-theme="light"> -->
+    <nav class="navbar sticky-top navbar-expand-md ">
+        <div class="container-fluid">
+            <a href="#navbar" class="navbar-brand img-link">
+                <img src="/assets/logo-default-280x113.png" alt="Pesto" width="150" class="py-3">
+            </a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><i class="navbar-toggler-icon "></i></span>
+            </button>
+
+            <!-- Nav bar links -->
+            <div class="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
+
+                <ul class="navbar-nav ">
+                    <li class="nav-item " style="padding-left: 0px;">
+                        <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TYPOGRAPHY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACTS</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn-outline-light d-none d-md-inline" style="margin-left: 10px;">
+                <a href="#" class="btn " role="button">Book Now</a>
+            </button>
+        </div>
+    </nav>
+
+    <!-- home div -->
+    <section id="home">
+        <div class="container-fluid image-overlay">
+            <div class="text-white px-5 home-div">
+                <div class="">
+                    <h1 class="display-2 text-center fw-bold">Welcome</h1>
+                </div>
+                <div>
+                    <hr class="home-hr">
+                </div>
+                <div class="" style="max-width: 550px; text-align: center; margin:auto">
+                    <p>Our restaurant offers full-service dining with breathtaking views seen from our indoor covered
+                        patio and our outdoor sundeck.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="cover-bg">
+            <!-- Card to check availability -->
+            <section id="check-body" class="">
+                <div class="shadow container card-body ">
+                    <div class="row py-3">
+
+                        <div class="col-md-3 col-sm-6 col-xs-12 card-form pt-4">
+                            <label for="Name">Name</label><br>
+                            <div class="mt-2">
+                                <input id="name-id" type="text" name="Name" class="check-input-content"
+                                    placeholder="Your Name" required />
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12 card-form pt-4">
+                            <label for="Phone">Phone</label><br>
+                            <div class="mt-2">
+                                <input id="phone-id" type="text" name="Phone Number" class="check-input-content"
+                                    placeholder="Your Phone Number" required />
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-6 col-xs-12 card-form pt-4">
+                            <label for="Date">Date</label><br>
+                            <div class="mt-2">
+                                <input id="date-id" type="date" name="Date" class="check-input-content"
+                                    placeholder="Your Phone Number" required />
+                            </div>
+                        </div>
+
+                        <div class="col-lg-1 col-md-3 col-sm-6 col-xs-12">
+
+                            <div class="py-3">
+                                <label for="Date">No. of People</label><br>
+                                <select id="" name="No. of People" class="check-input-content">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- button: check availability -->
+                        <div class="col-lg-3 col-md-12 col-sm-6 col-xs-12 pt-3 ">
+                            <div class="d-flex mt-4 ps-4">
+                                <button class="btn  btn-secondary btn-lg button ">Check Availability</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About us div -->
+            <section id="about" class="bg-body-tertiary">
+                <div class="container about-container py-5">
+                    <div class="row about-row justify-content-xl-center align-items-lg-center">
+                        <div class="col-lg-6 pb-md-3 pb-sm-3">
+                            <img src="/assets/food1new.jpg" alt="" class="img-fluid">
+
+                        </div>
+                        <div class="col-lg-6 ">
+                            <h1>About Us</h1>
+                            <p>Pesto is a family owned and operated Italian Restaurant offering a combination of fresh
+                                ingredients and authentic Italian cooking.</p>
+                            <p>We will make sure you are served the most authentic and fresh Italian dishes, while
+                                offering the best customer service. Our kitchen is committed to providing our guests
+                                with the best Italian Cuisine.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section id="featured offers">
+        <div class="container py-5">
+
+            <div class="featured-intro px-md-5 px-sm-3 ">
+                <div class="py-3">
+                    <h1 class="text-center fw-bold">Featured Offers</h1>
+                </div>
+                <div class="">
+                    <p>We offer a great variety of the best Italian dishes to our visitors and guests. Below are some of
+                        our most popular main dishes and desserts.</p>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="product-featured-div">
+                        <img src="/assets/ravioli2.jpg" alt="" class="img-fluid mb-3 img-offers">
+                        <div class="product-featured-button"><a class="btn btn-success" href="#">order now</a></div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <h3>Ravioli</h3>
+                    </div>
+                    <div class="text-center text-success">
+                        <p>$8</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="product-featured-div">
+                        <img src="/assets/pasta1.jpg" alt="" class="img-fluid mb-3 img-offers">
+                        <div class="product-featured-button"><a class="btn btn-success" href="#">order now</a></div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <h3>Black Pasta</h3>
+                    </div>
+                    <div class="text-center text-success">
+                        <p>$8</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="product-featured-div">
+                        <img src="/assets/gelato1.jpg" alt="" class="img-fluid mb-3 img-offers">
+                        <div class="product-featured-button"><a class="btn btn-success" href="#">order now</a></div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <h3>Gelato</h3>
+                    </div>
+                    <div class="text-center text-success">
+                        <p>$8</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="our restaurant menu">
+        <div class="container">
+            <div>
+                <h1 class="text-center fw-bold mb-5">Our Restaurant Menu</h1>
+            </div>
+
+            <div class="container my-5">
+                <nav>
+                    <div class="nav justify-content-center nav-div" id="nav-tab" role="tablist">
+                        <button class="nav-link active px-4 py-3 mx-3 my-3 rest-nav" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                            type="button" role="tab" aria-controls="nav-home" aria-selected="true">MAINS</button>
+                        <button class="nav-link px-4 py-3 mx-3 my-3 rest-nav" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                            type="button" role="tab" aria-controls="nav-profile" aria-selected="false">DESERTS</button>
+                        <button class="nav-link px-4 py-3 mx-3 my-3 rest-nav" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                            type="button" role="tab" aria-controls="nav-contact" aria-selected="false">DRINKS</button>
+                    </div>
+                </nav>
+                <div class="tab-content my-5 mx-4" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                        tabindex="0">
+                        <div class="restaurant-content">
+                            <div class="mb-5">
+                                <p class="price">$25.89</p>
+                                <h4>Osso Buco</h4>
+                                <p>Osso Buco is one of the Italian greats - slow cooked veal in a white wine tomato sauce. Meltingly tender, this is both hearty and luxurious.</p>
+                            </div>
+                            <div class="mb-5">
+                                <p class="price">$16.89</p>
+                                <h4>Pappardelle Mimmo</h4>
+                                <p>This delicious dish tops long, wide pasta with scallops, lobster, asparagus, butter, sage and truffle oil to cater every palate.</p>
+                            </div>
+                            <div class="mb-5">
+                                <p class="price">$17.89</p>
+                                <h4>Trippa Satriano</h4>
+                                <p>Thinly sliced herb encrusted ahi tuna topped with diced tomatoes, olives, capers, red onions and fennel. Perfect choice even for the first-time visitors!</p>
+                            </div>
+                            <div class="mb-5">
+                                <p class="price">$18.89</p>
+                                <h4>Filetto Di Manzo</h4>
+                                <p>Wonderful combination of prime tenderloin, winter greens, Jerusalem artichoke puree, and oxtail reduction sauce.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                        <div class="restaurant-content">
+                            <div class="mb-5">
+                                <p class="price">$20.89</p>
+                                <h4>Tiramisu</h4>
+                                <p>A Pesto's favorite - classic Italian dessert made with lady fingers, Mascarpone cheese & espresso. Perfect for both kids and adults.</p>
+                            </div>
+                            <div class="mb-5">
+                                <p class="price">$6.89</p>
+                                <h4>Cannoli</h4>
+                                <p>Trio tower of cannoli filled with smooth ricotta, sugar & cinnamon, with chocolate & raspberry sauces. Single cannoli is also available.</p>
+                            </div>
+                            <div class="mb-5">
+                                <p class="price">$5.89</p>
+                                <h4>Pistachio Passion</h4>
+                                <p>Layered pistachio cream, cream cheese custard & whipped cream atop a rich walnut crust.</p>
+                            </div>
+                            <div class="mb-5">
+                                <p class="price">$4.89</p>
+                                <h4>Chocolate-and-Pistachio Biscotti</h4>
+                                <p>At Pesto, we vary these wonderful nutty biscotti, while also dipping them in melted dark chocolate for an extra layer of flavor.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                        <div class="restaurant-content">
+                            <div class="mb-5">
+                                <p class="price">$10.89</p>
+                                <h4>Aperol Spritz</h4>
+                                <p>The most popular drink in Venice: refreshing, easygoing &…happy! Perfect to be sipped as an “Aperitivo” just before dinner - delightful!</p>
+                            </div>
+                            <div class="mb-5">
+                                <p class="price">$9.89</p>
+                                <h4>Negroni</h4>
+                                <p>Reward yourself with a moment of relaxation & pure pleasure while enjoying the full flavour & simplicity of a Negroni, an iconic Italian cocktail.</p>
+                            </div>
+                            <div class="mb-5">
+                                <p class="price">$11.89</p>
+                                <h4>Negroni Sbagliato</h4>
+                                <p>A cocktail for those who prefer more delicate flavours but nonetheless want a drink full of taste & personality.</p>
+                            </div>
+                            <div class="mb-5">
+                                <p class="price">$8.89</p>
+                                <h4>White Peach Bellini</h4>
+                                <p>White Peach Bellini is a classic drink from Venice Italy of white peach purée and Prosecco. It is one of our most popular drinks at Pesto.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark">
+        <div class="footer-nec">
+
+        </div>
+    </footer>   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
